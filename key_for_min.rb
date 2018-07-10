@@ -20,6 +20,7 @@ def check_min(array)
       value = array[1][i]
       key = array[1][i]
     end
+    i += 1
   end
   key
 end
