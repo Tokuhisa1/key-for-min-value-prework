@@ -4,7 +4,7 @@
 def hash_to_arrays(hash)
   keys = []
   values = []
-  name_hash.each do |key, value|
+  hash.each do |key, value|
     keys << key
     values << value
   end
