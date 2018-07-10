@@ -14,6 +14,7 @@ end
 def check_min(array)
   i = 1
   value = array[1][0]
+  key = array[0][0]
   while i < array[0].length
     if value > array[1][i] { value = array[1][i] }
   end
