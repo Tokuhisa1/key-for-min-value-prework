@@ -18,7 +18,7 @@ def check_min(array)
   while i < array[0].length
     if value > array[1][i]
       value = array[1][i]
-      key = array[1][i]
+      key = array[0][i]
     end
     i += 1
   end
